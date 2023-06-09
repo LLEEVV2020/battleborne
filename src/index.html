@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="ru" class="page">
+<html lang="ru" >
 
 @include('partials/head.html')
 
-<body class="page__body">
+<body >
   <div class="site-container">
     @include('partials/header.html')
-    <main class="main">
-      <picture>
-        <source srcset="img/cover.webp" type="image/webp">
-        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="Обложка канала MaxGraph">
-      </picture>
+    <main >
+
+      @include('partials/section-1.html')
+      @include('partials/section-2.html')
+      @include('partials/section-3.html')
+      @include('partials/section-4.html')
+      @include('partials/section-5.html')
+      @include('partials/section-6.html')
+      @include('partials/section-7.html')
+      @include('partials/section-8.html')
+      @include('partials/section-9.html')
+
     </main>
     @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример include -->
+
   </div>
 </body>
 
